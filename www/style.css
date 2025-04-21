@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("src/bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: 'Courier New', monospace;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: none;
+  font-style: normal;
+
+}
+
+.stopwatch {
+  width: 70%;
+  background: rgba(15, 23, 42, 0.6);
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.btn{
+  margin: 3px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #ffffff;
+  color: #222;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: scale(0.95);
+  background-color: #e0e0e0;
+}
+
+#heading{
+  position: absolute;
+}
